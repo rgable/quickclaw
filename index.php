@@ -5,7 +5,7 @@
 <link type="text/css" rel="stylesheet" href="dist/css/bootstrap-theme.min.css" />
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<script type="text/javascript" src="/resume3/js/vendor/jquery.js"> </script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"> </script>
 
 <script type="text/javascript" src="dist/js/bootstrap.min.js"> </script>
 <script type="text/javascript" src="lib/backbone.min.js"> </script>
@@ -16,7 +16,7 @@
 </script>
 <script type="text/html" id="searchResult">
 <div>
-{{pokeNumber}}: {{name}}
+{{pokeNo}}: {{name}}
 </div>
 </script>
 </head>

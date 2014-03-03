@@ -1,5 +1,4 @@
 $(document).ready(function () { 
-    ich.co
     var Pokemon = Backbone.Model.extend({}); 
     // #TODO: Prelowercasep okedex
     
@@ -29,7 +28,7 @@ $(document).ready(function () {
                 return (pokemon.get('name').toLowerCase().substr(0, searchText.length) == searchText);
             }); 
             console.log(pokeResults);
-            this.resultsBox.html(ich.searchResult({pokenumber: pokeResults[0].get('id'), name: pokeResults[0].get('name') }))
+            this.resultsBox.html(ich.searchResult(pokeResults[0].toJSON() ));
         }
     }); 
     var SearchWidget = new SearchWidgetView(); 
